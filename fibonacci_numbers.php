@@ -24,8 +24,3 @@ while ($previous < 4000000) {
     $current = $next;
 }
 
-
-
-
-
-//$number = 600851475143;
