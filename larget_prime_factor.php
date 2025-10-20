@@ -20,7 +20,7 @@ function largest_sort($prime_number) {
     $larget_number = 0;
     for ($i = 1; $i <= count($prime_number); $i++) {
         if ($prime_number[$i] > $larget_number) {
-            $larget_number = $prime_number[i + 1];
+            $larget_number = $prime_number[i];
         }
     }
 

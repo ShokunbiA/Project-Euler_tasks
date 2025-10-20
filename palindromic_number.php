@@ -13,7 +13,6 @@ function palindromic_number() {
             if($product <= $palindromic){
                 break;
             }
-            
             if(ispalindromic($product)){
                 $palindromic = $product;
             }
